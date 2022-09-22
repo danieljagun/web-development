@@ -1,0 +1,65 @@
+body{
+	background-image: url('../Graphics/Background1.jpg');
+	font-family: sans-serif;
+	font-size: large;
+	color: white;
+}
+a{
+	color: white;
+}
+h2{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+div{
+	float: right;
+	margin-right: 5px;
+}
+
+.img1{
+	width: 400px;
+	height: 200px
+}
+div > img{
+	height: 300px;
+	width: 300px;
+}
+form{
+	font-size: 32pt;
+	color: yellow;
+	text-align: center;
+}
+.table1{
+	border: 0px;
+	padding: 0px;
+	font-size: 32px;
+	color: yellow;
+	text-align: center;
+}
+.table2{
+	border: 0px;
+	padding: 0px;
+	font-size: 32px;
+	color: white;
+	text-align: center;	
+}
+.table2 th{
+	background-color: black;
+
+}
+table#luzhniki{
+	border: 1px solid black;
+	
+}
+
+ #luzhniki th{
+ 	background-color: black;
+ }
+ .vid
+ {
+ 	float: left;
+ 	margin-left: 40px;
+ 	text-align: center;
+}

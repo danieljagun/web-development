@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#banner {
+	position: fixed;
+	top: 0;
+	left: 0;
+	border: 0;
+	height: 120px;
+	width: 100%;
+	border: 1px;
+}
+#menu {  
+	position: fixed;
+	/* 151 = 150 for the top frame + 1 for the border */
+	top: 121px;
+	left: 0;
+	height: 100%;
+	width: 15%;
+	border: 1px;
+}
+#main {
+	position: relative;
+	/* 151 = 150 for the top frame + 1 for the border */
+	top: 121px;
+	/* This is a way of calculating height using a combination
+	   of percentage and pixels */
+	left: calc(15% + 1px);
+	border: 0;
+	height: calc(100% - 121px);
+	width: 85%;
+}
